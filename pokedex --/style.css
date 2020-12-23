@@ -1,0 +1,30 @@
+#list {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+#list li {
+    cursor: pointer;
+    flex-direction: column;
+    display: flex;
+    border: 2px solid;
+}
+#list li:hover {
+}
+
+#description {
+    display: none;
+}
+
+body{
+    background: #AAE0CE;
+    background: linear-gradient(to right, #AAD2EE , #FFB0E0 , #44C79A);
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    letter-spacing: 3px;
+    font-style: italic;
+}
